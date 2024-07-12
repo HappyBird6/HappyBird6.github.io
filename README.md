@@ -1,24 +1,34 @@
-1. 프로젝트 제목 : DOPLAYLIST
-2. 기간 
-3. 기술 스택 
-	1. 언어 : JAVA
-	2. 프레임워크 : SpringBoot
-	3. 데이터베이스 : mariadb 
-	4. 라이브러리 : spring security, JPA, Caffeine cache, Selenium Java, Jwt, Http WebClient
-	5. API : 구글OAuth2, youtube data api v3
-4. 프로젝트 목표
-	1. 셀레니움 활용
-	2. youtube api 학습
-	3. 실제 서비스 목표
-5. 프로젝트 기능
-	1. playlist 영상 게시자가 타임라인에 노래제목을 써두면 셀레니움으로 타임라인을 추출함
-		1. 유튜브 영상의 더보기란, 유튜브 댓글의 첫번째 고정 댓글의 타임라인
-		2. 일반적으로 타임라인의 패턴에서 
-	2. 추출한 데이터에서 가수, 노래제목이 적힌 유추해 youtube 링크의 매개변수로 검색해 관련도가 제일 높은 첫 번째 영상을 선택해서 해당 영상의 id를 추출함
-	3. 추출한 노래 영상의 id로 youtube data api v3를 이용해 사용자의 재생목록에 접근후 선택된 노래영상을 추가할 수 있게함
-	4. 유튜브 영상의 id별 db에 저장해 자주 요청되는 플레이리스트, 노래에 대해서는 셀레니움 없이 바로 쓸 수 있음
-6. 서비스 기능
-	1. 유튜브에서  하나의 영상으로 편집된 여러개의 노래 영상인 Playlist의 타임라인을 분석해 사용자의 유튜브 재생목록에 개별의 노래로 들어갈 수 있게 함
-7. 코드 예제
-8. 개선사항 및 피드백
-9. 링크
+# 포트폴리오
+
+<hr>
+
+### 소개
+<hr>
++ 이름 : 박영진
++ 생년월일 : 1997년 4월 7일
++ 학교 : 경희대학교 응용수학과 졸업(2023년 8월)
++ 이메일 : wsbg@naver.com, wsbg6006@gmail.com
++ Github : https://github.com/HappyBird6
++ 기타 : 부트캠프졸업 적기
+### 프로젝트 이력
+<hr>
++ 게이머들을 위한 대결 플랫폼 프로젝트(2023.12~2024.2)
++ 유튜브 플레이리스트 영상에 포함된 노래 분리 서비스 프로젝트(2024.3~2024.5)
++ 예약 사이트 서버 부하 방지를 위한 대기열 시스템 구축 및 RabbitMQ 학습용 프로젝트(2024.6~2024.6)
+
+### 기술 경험
+<hr>
++ Backend
+	+ Spring Boot, Spring JPA
++ Server / Deployment
+	+ Apache Tomcat
+	+ AWS EC2, AWS Route53
++ OS
+	+ Linux(우분투 버전)
++ DB / Cache
+	+ MariaDB
+	+ Caffeine Cache
++ Tools / etc
+	+ VSCode, Eclipse
+	+ RabbitMQ
+	+ Selenium JAVA
